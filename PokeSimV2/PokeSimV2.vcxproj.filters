@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Custom pokemon">
+      <UniqueIdentifier>{5214ca4d-f20f-4dad-8c70-2dc165ebdc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logic">
+      <UniqueIdentifier>{a9136518-0d81-4507-83eb-0940090ef51f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PokeDex">
+      <UniqueIdentifier>{df302f72-e889-47c1-b11e-36117e0073cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{412f3b0f-17b5-4d5d-a491-356c739bfff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Assets">
+      <UniqueIdentifier>{f3677bdf-01cc-4874-8ce7-f6e3c8e31670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Custom pokemon\Header">
+      <UniqueIdentifier>{69899bbe-9628-4d60-8e19-2d81c76514be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logic\Header">
+      <UniqueIdentifier>{3236e1c9-1d32-49e2-b8b1-ddbcd03c5eef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Header">
+      <UniqueIdentifier>{c082d9c0-5b24-409f-896b-009bce30da38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PokeDex\Header">
+      <UniqueIdentifier>{c1fdd8e8-e9ba-4774-b601-206dffaefe7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Assets\Pokemon list">
+      <UniqueIdentifier>{790e0faa-f34b-4585-ad56-2d3a3f1e5388}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pokemon_maker.c">
+      <Filter>Source Files\Custom pokemon</Filter>
+    </ClCompile>
+    <ClCompile Include="pokemon_sprite_maker.c">
+      <Filter>Source Files\Custom pokemon</Filter>
+    </ClCompile>
+    <ClCompile Include="pokemon.c">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="main_menu.c">
+      <Filter>Source Files\PokeDex</Filter>
+    </ClCompile>
+    <ClCompile Include="Pokedex.c">
+      <Filter>Source Files\PokeDex</Filter>
+    </ClCompile>
+    <ClCompile Include="pokemon_loader.c">
+      <Filter>Source Files\PokeDex</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics.c">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Custom_pokemon.h">
+      <Filter>Source Files\Custom pokemon\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="pokemon.h">
+      <Filter>Source Files\Logic\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>Source Files\Graphics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="game_context.h">
+      <Filter>Source Files\Graphics\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="main_menu.h">
+      <Filter>Source Files\PokeDex\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="logic.h">
+      <Filter>Source Files\Logic\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Pokedex.h">
+      <Filter>Source Files\PokeDex\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="pokemon_list.txt">
+      <Filter>Resource Files\Assets\Pokemon list</Filter>
+    </Text>
+    <Text Include="custom_pokemon.txt">
+      <Filter>Resource Files\Assets\Pokemon list</Filter>
+    </Text>
+    <Text Include="pokemon_moves.txt">
+      <Filter>Resource Files\Assets\Pokemon list</Filter>
+    </Text>
+    <Text Include="moves_list.txt">
+      <Filter>Resource Files\Assets\Pokemon list</Filter>
+    </Text>
+    <Text Include="pokemon_list_combined.txt">
+      <Filter>Resource Files\Assets\Pokemon list</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
