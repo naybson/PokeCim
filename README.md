@@ -98,3 +98,10 @@ git clone https://github.com/naybson/PokeCim.git
 - Windows Console API (`windows.h`)
 - ANSI escape codes for terminal colors
 - No external libraries — pure C standard library
+
+---
+
+## Credits
+- Base Pokémon sprites adapted from the [krabby](https://github.com/yannjor/krabby) colorscript library (GPL-3.0)
+- Fusion sprites sourced from the Pokémon Infinite Fusion community project
+- Pokémon is a trademark of Nintendo/Game Freak. This project is fan-made and not affiliated with or endorsed by Nintendo.
