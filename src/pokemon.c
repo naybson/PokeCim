@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#ifndef _WIN32
-#include <strings.h>
-#define _stricmp _stricmp
-#endif
+#include "platform.h"
 #include "pokemon.h"
 #include "graphics.h"
 #include "game_context.h"
